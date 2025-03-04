@@ -4,9 +4,12 @@ import Home from './Home';
 import About from './About';
 import Basic from './Basic';
 import Use from './Use';
+import Text from './Components/Text';
+import Mode from './Components/Mode';
 
 function App() {
   // let x = prompt("enter")
+ 
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -26,7 +29,9 @@ function App() {
       {/* <Home text={x}></Home>
       <About></About> */}
       {/* <Basic></Basic> */}
-      <Use></Use>
+      {/* <Use></Use> */}
+      {/* <Text></Text> */}
+      <Mode text=" Day & Night mode switcher "></Mode>
       
     </div>
   );

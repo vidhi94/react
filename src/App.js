@@ -6,6 +6,7 @@ import Basic from './Basic';
 import Use from './Use';
 import Text from './Components/Text';
 import Mode from './Components/Mode';
+import Event from './Components/Event';
 
 function App() {
   // let x = prompt("enter")
@@ -31,7 +32,8 @@ function App() {
       {/* <Basic></Basic> */}
       {/* <Use></Use> */}
       {/* <Text></Text> */}
-      <Mode text=" Day & Night mode switcher "></Mode>
+      {/* <Mode text=" Day & Night mode switcher "></Mode> */}
+      <Event></Event>
       
     </div>
   );
